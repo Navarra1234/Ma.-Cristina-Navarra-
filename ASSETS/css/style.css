@@ -1,0 +1,139 @@
+:root {
+    --bg1: hsl(347, 94%, 50%);
+    --bg2: rgb(240, 25, 150);
+    --body: rgb(10, 44, 235);
+    --brand: #3bf287;
+    --white: rgb(235,235, 235);
+    --p: rgb(243, 21, 202);
+
+}
+
+
+#banner {
+    min-height: 100vh;
+    background: linear-gradient(to right, hsla(0, 2%, 18%, 0.856) ,rgba(44,42,42,0.315)), url('https://i.pinimg.com/736x/db/95/59/db9559f9a52f8cbed3e6a0fd6da90639.jpg');
+    background-size: cover;
+}
+
+.btn {
+    padding: 15px 30px;
+    transition: all 0.4s ease;
+    font-weight: 800;
+    border-radius: 0;
+}
+
+.btn-brand{
+    color: #ffffff;
+    background-color: #f23b63;
+}
+
+.btn-brand:hover {
+    background-color: transparent;
+    color:#f23b5a;
+    border-color: #f23b87;
+}
+*{
+    font-family:'Tahoma';
+}
+
+section{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.icon-img-box{
+    width: 40%;
+}
+.card {
+    transition: background-color 0.3s, 0.3s;
+}
+.card:hover {
+    background-color: rgb(238, 130, 166);
+}
+.card:hover .card-title, 
+.card:hover .card-text,
+.card:hover .btn {
+    color: #ffffff;
+}
+
+.btn-outlined-brand {
+    color: black;
+    background-color: transparent;
+    border-color: rgb(255, 0, 55);
+}
+
+.btn-outlined-brand:hover {
+   background-color: rgb(255, 0, 157);
+}
+#cta{
+    background: linear-gradient(to right, hsla(120, 2%, 18%, 0.856) ,rgba(44,42,42,0.315)), url('https://w0.peakpx.com/wallpaper/445/526/HD-wallpaper-pink-roses-blue-background-large-bouquet-of-pink-roses-beautiful-pink-flowers-roses.jpg');
+    min-height: 70vh;
+    background-size: cover;
+    background-repeat:no-repeat ;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+
+ .testimonials {
+    background-color: var(--bg2);
+    padding: 30px;
+ }
+
+
+.testimonials img {
+    width: 65px;
+    border-radius: 100px;
+    height: 65px;
+}
+
+#reviews a {
+    color: var(--brand);
+
+ }
+
+ /*Footer*/
+#footer{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: var(--bg1);
+}
+
+#footer ul.list-unstyled li a {
+    color:#ffffff;
+
+}
+
+#footer ul.list-unstyled li-hover a {
+    color: var(--brand);
+
+}
+
+#reviews h2,#services h2 {
+    color: var(--bg1);
+
+}
+
+.btn-outline-light {
+    border-color: #4af23b !important;
+    color:#F2B03B;
+}
+
+@media only screen and (max-width: 767px:) 
+    section {
+        paddding: 60px 10px;
+    
+}
+     /*About*/
+#about {background-color:wheat;
+}
+   /*Services*/
+#Services {background-color:lightpink;
+}
+
+  /*Reviews*/
+#Reviews {background-color:lightblue;
+}
+/*Contacts*/
+#Contacts {background-color:lightcoral;
+}
