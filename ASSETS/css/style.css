@@ -185,16 +185,19 @@ section{
     content: ""; /* Minus icon */
     
   }}
-      /*About*/
-#about {background-color:wheat;
+    /*About*/
+    #about {
+        background-color: lightpink;
+    }
+         /*Services*/
+    #Services {
+        background-color: lightblue;
+    }
+   /*Contacts*/
+   #container {
+    background-color: wheat;
 }
-   /*Services*/
-#Services {background-color:lightpink;
-}
-
-  /*Reviews*/
-#Reviews {background-color:lightblue;
-}
-/*Contacts*/
-#Contacts {background-color:lightcoral;
+/*Footer*/
+#footer {
+    background-color: lightgray;
 }
