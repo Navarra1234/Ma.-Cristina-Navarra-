@@ -185,3 +185,16 @@ section{
     content: ""; /* Minus icon */
     
   }}
+      /*About*/
+#about {background-color:wheat;
+}
+   /*Services*/
+#Services {background-color:lightpink;
+}
+
+  /*Reviews*/
+#Reviews {background-color:lightblue;
+}
+/*Contacts*/
+#Contacts {background-color:lightcoral;
+}
