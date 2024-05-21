@@ -124,19 +124,6 @@ section{
         padding: 60px 10px;
     
 }
-     /*About*/
-#about {background-color:wheat;
-}
-   /*Services*/
-#Services {background-color:lightpink;
-}
-
-  /*Reviews*/
-#Reviews {background-color:lightblue;
-}
-/*Contacts*/
-#Contacts {background-color:lightcoral;
-}
 .faq-section {
     max-width: 800px;
     margin: auto;
