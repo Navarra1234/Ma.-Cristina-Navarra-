@@ -65,7 +65,7 @@ section{
    background-color: rgb(255, 0, 157);
 }
 #cta{
-    background: linear-gradient(to right, hsla(120, 2%, 18%, 0.856) ,rgba(44,42,42,0.315)), url('https://w0.peakpx.com/wallpaper/445/526/HD-wallpaper-pink-roses-blue-background-large-bouquet-of-pink-roses-beautiful-pink-flowers-roses.jpg');
+    background: linear-gradient(to right, hsla(120, 6%, 97%, 0.856) ,rgba(202, 202, 202, 0.315)), url('https://img.freepik.com/free-photo/floral-ornaments_23-2148134159.jpg?t=st=1718674961~exp=1718678561~hmac=dc10be031d6cee8d5289fdb6551a91150c2effe370b543c6b940fa41b36a8df6&w=1380');
     min-height: 70vh;
     background-size: cover;
     background-repeat:no-repeat ;
@@ -130,7 +130,7 @@ section{
   }
 
   .faq-item {
-    margin-bottom: 20px; /* Add margin bottom for spacing */
+    margin-bottom: 20px; /* Add margin bottom for spacing */m
     border-radius: 0 !important;
   }
 
@@ -206,8 +206,4 @@ section{
     background-position:right ;
 }
 
-#about img{
-height:350px ;
-width: 100%;
-background-size: cover;
-}
+#cta{background-position:left;}
