@@ -201,3 +201,13 @@ section{
 #footer {
     background-color: salmon;
 }
+
+#banner {
+    background-position:right ;
+}
+
+#about img{
+height:350px ;
+width: 100%;
+background-size: cover;
+}
